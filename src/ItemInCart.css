@@ -1,0 +1,33 @@
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .item-details {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .item-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .item-price,
+  .item-quantity {
+    margin: 0;
+    font-size: 14px;
+  }
+  
